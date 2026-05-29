@@ -1,0 +1,54 @@
+/* CSS = cores, fontes e animações */
+
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#eef7ee;
+}
+
+header{
+  background:linear-gradient(to right, #ffb300, #43a047);
+  color:white;
+  text-align:center;
+  padding:40px;
+}
+
+.conteudo{
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+
+.card{
+  background:white;
+  width:320px;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+
+  /* animação */
+  transition:0.5s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+h2{
+  color:#2e7d32;
+}
+
+button{
+  background:#43a047;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:8px;
+  cursor:pointer;
+  margin-top:15px;
+  font-size:16px;
+}
+
+button:hover{
+  background:#2e7d32;
+}
